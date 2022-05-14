@@ -7,12 +7,14 @@ def style():
 
 
 def instructions():
-    print("In rock-paper-scissors, two players will each randomly choose one of three hand signs: rock, paper, or "
-          "scissors. "
-          "Here are the rules that determine which sign beats another")
+    print('''In rock-paper-scissors, two players will each randomly choose one of three hand signs: rock, paper, or
+    scissors. In this program, the user will play against the computer
+    Here are the rules that determine which sign beats another''')
+    print()
     print("- Rock wins over scissors (because rock smashes scissors)"
          "\n- Scissors wins over paper (because scissors cut paper)"
           "\n- Paper wins over rock (because paper covers rock)")
+    print()
     ready = input("Press ENTER when ready to move forward >")
 
 
